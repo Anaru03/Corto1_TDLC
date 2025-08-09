@@ -81,3 +81,13 @@ nx.draw_networkx_nodes(G, pos, nodelist=list(accepts), node_color='orange', node
 plt.title("AFN de 'letter'")
 plt.axis('off')
 plt.show()
+
+
+## Inciso 2 — digit y digits
+
+digits_syms = [symbol(str(i)) for i in range(10)]
+digit_frag = union(digits_syms)
+digits_frag = plus(digit_frag)  # digit+
+
+print("digit start:", digit_frag[0], "accepts:", digit_frag[1])
+print("digits (digit+) start:", digits_frag[0], "accepts:", digits_frag[1])
