@@ -45,3 +45,10 @@ def star(f):
 
 def plus(f):
     return concat(f, star(f))
+
+letters = [symbol(x) for x in ['A','B','a','b']]
+letter_frag = union(letters)
+
+print("letter start:", letter_frag[0], "accepts:", letter_frag[1])
+print("Transiciones:")
+pprint(transitions)
