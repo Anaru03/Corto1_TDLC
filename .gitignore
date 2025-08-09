@@ -1,0 +1,17 @@
+# Ignorar entorno virtual
+venv/
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+*.log
+*.tmp
+
+.env
+
+.ipynb_checkpoints
+
+.DS_Store
+Thumbs.db
