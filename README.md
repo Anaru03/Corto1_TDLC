@@ -1,8 +1,8 @@
-# Examen Corto No. 1 — Teoría de Lenguajes de Compiladores
+# Examen Corto No. 1 — Teoría de la computación
 
-Universidad del Valle de Guatemala
-Facultad de Ingeniería
-Ingeniería en Ciencia de la Computación y Tecnologías de la Información
+Universidad del Valle de Guatemala  
+Facultad de Ingeniería  
+Ingeniería en Ciencia de la Computación y Tecnologías de la Información  
 
 ---
 
