@@ -105,9 +105,8 @@ print("id start:", id_frag[0], "accepts:", id_frag[1])
 dot = symbol('.')
 plus_s = symbol('+'); minus_s = symbol('-')
 sign_union = union([plus_s, minus_s])
-sign_opt = union([sign_union, epsilon_frag()])  # o usar optional() si la defines
+sign_opt = union([sign_union, epsilon_frag()])
 
-# mejor usar optional implementada antes (si la tienes)
 def optional(f):
     ns = new_state(); na = new_state()
     add_transition(ns, 'ε', f[0]); add_transition(ns, 'ε', na)
